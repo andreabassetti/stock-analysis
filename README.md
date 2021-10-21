@@ -4,7 +4,10 @@
 The purpose of this project is to help Steve conduct an analysis of all the stocks in this workbook with the click of a button. It is important to specifically focus building a code that can handle a much larger data set and on refactoring the code to make sure it is running efficiently. 
 
 ## Results
-
+### Stock Preformance
+Based on the stocks in this workbook, the market preformed worse in 2018 than they did in 2017. 2017 seemed to be a year with high growth, except for stock TERP. On the other hand, 2018 seemed to be a year with high losses, except for stocks ENPH and RUN. The stock ENPH is the only stock that had extremely high growth pattern both years, increasing 129.5% in 2017 and 81.9% in 2018. The stock TERP is the only stock that had a constant loss pattern in both years, losing 7.2% in 2017 and 5% in 2018. For more details on the stock performance, see the two tables below: 
+![Stock_Performance_2017]()
+![Stock_Performance_2018]()
 
 ## Summary
 
