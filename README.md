@@ -6,8 +6,10 @@ The purpose of this project is to help Steve conduct an analysis of all the stoc
 ## Results
 ### Stock Preformance
 Based on the stocks in this workbook, the market preformed worse in 2018 than they did in 2017. 2017 seemed to be a year with high growth, except for stock TERP. On the other hand, 2018 seemed to be a year with high losses, except for stocks ENPH and RUN. The stock ENPH is the only stock that had extremely high growth pattern both years, increasing 129.5% in 2017 and 81.9% in 2018. The stock TERP is the only stock that had a constant loss pattern in both years, losing 7.2% in 2017 and 5% in 2018. For more details on the stock performance, see the two tables below: 
-![Stock_Performance_2017]()
-![Stock_Performance_2018]()
+![Stock_Performance_2017](https://github.com/andreabassetti/stock-analysis/blob/main/png/Stock_Performance_2017.png)
+![Stock_Performance_2018](https://github.com/andreabassetti/stock-analysis/blob/main/png/Stock_Performance_2018.png)
+### Code Refactoring
+In order to ensure that the code could run with a large dataset and efficiently, the code we built in the module needed to be refactored. To check that the execution time was faster i executed a timer function. I started the timer with `startTime = Timer` after the `InputBox` code line so that it would not count the time it took Steve to chose the yearValue. I ended the timer with `endTime = Timer` after the whole code ran, but before the `MsgBox` code line. 
 
 ## Summary
 
