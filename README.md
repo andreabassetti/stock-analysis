@@ -62,8 +62,8 @@ In order to ensure that the code could run with a large dataset and efficiently,
 
 |    | First Code |  Refactored Code  |
 | ----------- | ----------- | -----------  |
-| 2017 | ![VBA_Module_2017](https://github.com/andreabassetti/stock-analysis/blob/main/png/VBA_Module_2017.png) |  ![VBA_Challenge_2017](https://github.com/andreabassetti/stock-analysis/blob/main/png/VBA_Challenge_2017.png) |
-| 2018 | ![VBA_Module_2018](https://github.com/andreabassetti/stock-analysis/blob/main/png/VBA_Module_2018.png) |  ![VBA_Challenge_2018](https://github.com/andreabassetti/stock-analysis/blob/main/png/VBA_Challenge_2018.png) |
+| 2017 | ![VBA_Module_2017](https://github.com/andreabassetti/stock-analysis/blob/main/Resources/VBA_Module_2017.png) |  ![VBA_Challenge_2017](https://github.com/andreabassetti/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png) |
+| 2018 | ![VBA_Module_2018](https://github.com/andreabassetti/stock-analysis/blob/main/Resources/VBA_Module_2018.png) |  ![VBA_Challenge_2018](https://github.com/andreabassetti/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png) |
 
 
 ## Summary
