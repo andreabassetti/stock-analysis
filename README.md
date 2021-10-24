@@ -9,43 +9,43 @@ Based on the stocks in this workbook, the market preformed worse in 2018 than th
 
 The most important section of the code that is responsible for calculating the Total Daily Volume and Return for each ticker is shown below. Please note that the complete code can be found in the repository, this is just a section of the code where all comments and dimensions have been removed. 
 
- `For i = 0 To 11`
         
-        tickerVolumes = 0
-              
-        Worksheets(yearValue).Activate
+    For i = 0 to 11 
+      tickerVolumes(tickerIndex) = 0
+       
+      Worksheets(yearValue).Activate
         For j = 2 To RowCount
-                   
-            If Cells(j, 1).Value = tickerIndex Then
+        
+            If Cells(j, 1).Value = tickers(tickerIndex) Then
             
-                tickerVolumes = tickerVolumes + Cells(j, 8).Value
+                tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
             
             End If
-          
-            If Cells(j - 1, 1).Value <> tickerIndex And Cells(j, 1).Value = tickerIndex Then
+           
+            If Cells(j - 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
                 
-                tickerStartingPrices = Cells(j, 6).Value
+                tickerStartingPrices(tickerIndex) = Cells(j, 6).Value
                 
-            End If 
-                       
-             If Cells(j + 1, 1).Value <> tickerIndex And Cells(j, 1).Value = tickerIndex Then
+            End If              
+           
+             If Cells(j + 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
              
-                tickerEndingPrices = Cells(j, 6).Value
+                tickerEndingPrices(tickerIndex) = Cells(j, 6).Value               
                 
             End If
-            
         Next j
-               
-            If Cells(j + 1, 1).Value <> tickerIndex Then
+      
+            If Cells(j + 1, 1).Value <> tickers(tickerIndex) Then
             
-                tickerIndex = tickers(i + 1)
+                tickerIndex = tickerIndex + 1
                 
             End If
-`Next i`
+            
+    Next i
 
 
 
-The tables created have been formatted with colors to accentuate the results. This was done using this line of code:
+The tables created have been formatted with colors to accentuate the results. This was done using these lines of code:
 - `Range("A3:C3").Font.FontStyle = "Bold"`
 - `Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous`
 - `Range("B4:B15").NumberFormat = "#,##0"`
