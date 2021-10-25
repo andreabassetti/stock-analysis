@@ -54,8 +54,8 @@ The tables created have been formatted with colors to accentuate the results. Th
 
 
 For more details on the stock performance, see the two tables below.
-![Stock_Performance_2017](https://github.com/andreabassetti/stock-analysis/blob/main/png/Stock_Performance_2017.png)
-![Stock_Performance_2018](https://github.com/andreabassetti/stock-analysis/blob/main/png/Stock_Performance_2018.png)
+![Stock_Performance_2017](https://github.com/andreabassetti/stock-analysis/blob/main/Resources/Stock_Performance_2017.png)
+![Stock_Performance_2018](https://github.com/andreabassetti/stock-analysis/blob/main/Resources/Stock_Performance_2018.png)
 
 ### Code Refactoring
 In order to ensure that the code could run with a large dataset and efficiently, the code we built in the module needed to be refactored. To check that the execution time was faster I executed a timer function. I started the timer with `startTime = Timer` after the `InputBox` code line so that it would not count the time it took Steve to chose the yearValue. I ended the timer with `endTime = Timer` after the whole code ran, but before the `MsgBox` code line. Below is the series of screenshots from the execution times, in both cases you can see that the times were slightly reduced when the code was refactored.
